@@ -37,7 +37,7 @@ jobs:
 
 ### Inputs
 - `directory`: Sub-directory to cd into before running semantic-release.
-- `github_token` [REQUIRED]: GitHub token used to push release notes and new commits/tags.
+- `github_token`: [REQUIRED]: GitHub token used to push release notes and new commits/tags.
 - `pypi_token`: PyPI API token to push build to pypi.
 - `repository_username`: Username with project access to push to Artifact Repository.
 - `repository_password`: Password or token to the account specified in repository_username.
