@@ -15,6 +15,10 @@ cd "${INPUT_DIRECTORY}"
 git config --global user.name "semantic-release-action"
 git config --global user.email "action@github.com"
 
+# Identify version to bump to
+semantic-release publish -v DEBUG --noop
+
+
 # Run Semantic Release
 semantic-release publish -v DEBUG \
     -D commit_author="semantic-release-action <action@github.com>"
