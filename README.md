@@ -45,6 +45,3 @@ jobs:
 
 ## Acknowledgements
 - This action draws most of its code from the [python-semantic-release](https://github.com/relekang/python-semantic-release) repository.
-
-## WARNING
-This action template is provided as is and without any warranty. The developer assume any responsibility if the action does not work as expected or malfunctions.
